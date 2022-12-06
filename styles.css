@@ -1,0 +1,111 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Anybody', cursive;
+}
+
+.avatars {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: #616C59 0px 5px 15px;
+    background-image: url("images/square_pic0.jpg");
+    background-size: cover;
+}
+
+
+.avatars:hover {
+    background-image: url("images/square_pic.jpg");
+    cursor: pointer;
+}
+
+.card {
+    width: 400px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #B9A7BB;
+    color: #323B36;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p,h4 {
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.anim {
+    color: #603F8B;
+    animation: myAnim 3s ease 0s infinite normal backwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.accent-container {
+    display: flex;
+}
+
+.accent {
+    height: inherit;
+    width: 3px;
+    margin: 0 4px;
+}
+
+.purple {
+    background-color: #603F8B;
+}
+
+.grey {
+    background-color: #616C59;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
